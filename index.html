@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影片资讯导航 | 她欲 · 蓝颜之瘾 · XP天堂 · 尤物岛</title>
+<meta name="description" content="影片资讯导航:精选影视资讯、评分、片单与观影平台,收录她欲、蓝颜之瘾、XP天堂、尤物岛等影片资讯站。">
+<meta name="robots" content="index,follow">
+<style>
+:root{--bg:#fbf7f8;--card:#fff;--text:#2b2230;--sub:#7a6f80;--accent:#b4457a;--line:#eadfe5;--hl:#fdecf3}
+@media (prefers-color-scheme:dark){:root{--bg:#171218;--card:#211a23;--text:#f1e9f3;--sub:#a99bb0;--accent:#e279ab;--line:#33283a;--hl:#2d1e29}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px 48px}
+header{padding:40px 0 20px;text-align:center}
+h1{margin:0 0 6px;font-size:26px;letter-spacing:.5px}
+header p{margin:0;color:var(--sub)}
+.search{margin:20px auto 0;max-width:420px}
+.search input{width:100%;padding:11px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--text);font-size:15px;outline:none}
+.search input:focus{border-color:var(--accent)}
+h2{font-size:16px;margin:32px 0 12px;color:var(--accent);display:flex;align-items:center;gap:8px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.item{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:inherit;transition:transform .15s,border-color .15s}
+.item:hover{transform:translateY(-2px);border-color:var(--accent)}
+.item b{display:block;font-size:15px}
+.item span{display:block;margin-top:2px;color:var(--sub);font-size:13px}
+.item.own{background:var(--hl);border-color:var(--accent)}
+.item.own b::after{content:"推荐";margin-left:8px;padding:1px 8px;border-radius:999px;background:var(--accent);color:#fff;font-size:11px;font-weight:400}
+.hidden{display:none}
+footer{margin-top:40px;text-align:center;color:var(--sub);font-size:13px}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>影片资讯导航</h1>
+  <p>精选影片资讯站与常用观影工具,一页找全</p>
+  <div class="search"><input id="q" type="search" placeholder="搜索站点名称或简介…" autocomplete="off"></div>
+</header>
+
+<section>
+<h2>推荐站点</h2>
+<div class="grid">
+  <a class="item own" href="https://tayu1.com" target="_blank" rel="noopener"><b>她欲</b><span>女性向影片资讯与精选片单</span></a>
+  <a class="item own" href="https://lanyanzy.com" target="_blank" rel="noopener"><b>蓝颜之瘾</b><span>女性视角筛选,慢热与高张力作品推荐</span></a>
+  <a class="item own" href="https://xpxp618.com" target="_blank" rel="noopener"><b>XP天堂</b><span>影片资讯与精选推荐</span></a>
+  <a class="item own" href="https://youwudao.com" target="_blank" rel="noopener"><b>尤物岛</b><span>影片资讯与内容推荐</span></a>
+</div>
+</section>
+
+<section>
+<h2>影视数据库</h2>
+<div class="grid">
+  <a class="item" href="https://www.imdb.com" target="_blank" rel="noopener"><b>IMDb</b><span>全球最大影视数据库</span></a>
+  <a class="item" href="https://www.themoviedb.org" target="_blank" rel="noopener"><b>TMDB</b><span>开放的影视资料库</span></a>
+  <a class="item" href="https://movie.douban.com" target="_blank" rel="noopener"><b>豆瓣电影</b><span>中文影评与评分社区</span></a>
+  <a class="item" href="https://www.mtime.com" target="_blank" rel="noopener"><b>时光网</b><span>影视资讯与资料</span></a>
+  <a class="item" href="https://www.wikipedia.org" target="_blank" rel="noopener"><b>维基百科</b><span>演员、导演与作品资料</span></a>
+</div>
+</section>
+
+<section>
+<h2>评分与影评</h2>
+<div class="grid">
+  <a class="item" href="https://letterboxd.com" target="_blank" rel="noopener"><b>Letterboxd</b><span>影迷社交与片单分享</span></a>
+  <a class="item" href="https://www.rottentomatoes.com" target="_blank" rel="noopener"><b>Rotten Tomatoes</b><span>烂番茄新鲜度评分</span></a>
+  <a class="item" href="https://www.metacritic.com" target="_blank" rel="noopener"><b>Metacritic</b><span>媒体综合评分</span></a>
+  <a class="item" href="https://www.filmaffinity.com" target="_blank" rel="noopener"><b>FilmAffinity</b><span>欧洲影迷评分平台</span></a>
+  <a class="item" href="https://filmarks.com" target="_blank" rel="noopener"><b>Filmarks</b><span>日本影视评分社区</span></a>
+</div>
+</section>
+
+<section>
+<h2>观影平台</h2>
+<div class="grid">
+  <a class="item" href="https://www.netflix.com" target="_blank" rel="noopener"><b>Netflix</b><span>全球流媒体平台</span></a>
+  <a class="item" href="https://www.viki.com" target="_blank" rel="noopener"><b>Viki</b><span>亚洲剧集与字幕</span></a>
+  <a class="item" href="https://www.wetv.vip" target="_blank" rel="noopener"><b>WeTV</b><span>腾讯视频国际版</span></a>
+  <a class="item" href="https://www.iq.com" target="_blank" rel="noopener"><b>iQIYI 国际版</b><span>爱奇艺国际站</span></a>
+  <a class="item" href="https://www.youtube.com" target="_blank" rel="noopener"><b>YouTube</b><span>预告片与影评视频</span></a>
+  <a class="item" href="https://www.bilibili.com" target="_blank" rel="noopener"><b>哔哩哔哩</b><span>影视解说与二创</span></a>
+</div>
+</section>
+
+<section>
+<h2>片源查询与工具</h2>
+<div class="grid">
+  <a class="item" href="https://www.justwatch.com" target="_blank" rel="noopener"><b>JustWatch</b><span>查询作品在哪个平台上线</span></a>
+  <a class="item" href="https://trakt.tv" target="_blank" rel="noopener"><b>Trakt</b><span>追剧记录与日历</span></a>
+  <a class="item" href="https://www.reelgood.com" target="_blank" rel="noopener"><b>Reelgood</b><span>流媒体片源搜索</span></a>
+  <a class="item" href="https://mydramalist.com" target="_blank" rel="noopener"><b>MyDramaList</b><span>亚洲剧集数据库</span></a>
+</div>
+</section>
+
+<section>
+<h2>影视新闻与杂志</h2>
+<div class="grid">
+  <a class="item" href="https://variety.com" target="_blank" rel="noopener"><b>Variety</b><span>好莱坞行业新闻</span></a>
+  <a class="item" href="https://www.hollywoodreporter.com" target="_blank" rel="noopener"><b>Hollywood Reporter</b><span>影视娱乐报道</span></a>
+  <a class="item" href="https://www.indiewire.com" target="_blank" rel="noopener"><b>IndieWire</b><span>独立电影与影评</span></a>
+  <a class="item" href="https://eiga.com" target="_blank" rel="noopener"><b>映画.com</b><span>日本电影资讯</span></a>
+</div>
+</section>
+
+<footer>
+  <p>友链交换请联系:<a href="https://tayu1.com" target="_blank" rel="noopener">tayu1.com</a> · <a href="https://lanyanzy.com" target="_blank" rel="noopener">lanyanzy.com</a></p>
+  <p>本站仅提供网址导航,内容与服务由各站点自行负责。</p>
+</footer>
+</div>
+<script>
+var q=document.getElementById('q');
+q.addEventListener('input',function(){
+  var k=q.value.trim().toLowerCase();
+  document.querySelectorAll('.item').forEach(function(a){
+    a.classList.toggle('hidden',k&&a.textContent.toLowerCase().indexOf(k)<0);
+  });
+  document.querySelectorAll('section').forEach(function(s){
+    s.classList.toggle('hidden',!s.querySelector('.item:not(.hidden)'));
+  });
+});
+</script>
+</body>
+</html>
